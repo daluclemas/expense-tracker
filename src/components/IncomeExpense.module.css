@@ -1,0 +1,50 @@
+.incomeExpense{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 95%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.3), 3px 3px 4px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+
+}
+
+.incomeDiv, .expenseDiv{
+
+    border:1px hidden red;
+    width:70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.incomeDiv h4, .expenseDiv h4{
+
+    font-variant: small-caps;
+    width: 100%;
+}
+
+.incomeDiv p, .expenseDiv p{
+
+    font-size: 24px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.incomeDiv p{
+    color: var(--green-color);
+}
+
+.expenseDiv p{
+    color: var(--red-color);
+}
+
+
+
+hr{
+
+    height: 50px;
+    
+}

@@ -1,0 +1,24 @@
+.balanceDisplay{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+
+}
+
+.balanceText{
+    width:100%;
+    font-variant: small-caps;
+    font-weight:500;
+    font-size: 15px;
+    
+}
+
+.balance{
+
+    width: 100;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom:20px;
+}

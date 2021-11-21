@@ -1,0 +1,51 @@
+.listItems{
+    display: flex;
+    padding-right: 5px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px hidden black;
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+ 
+}
+
+.listItems button{
+    border: none;
+    width:40px;
+    color: white;
+    background: var(--red-color);
+    cursor: pointer;
+    /* opacity: 0; */
+    
+   
+}
+
+.listItems button:hover{
+  /* opacity: 1;  */
+  background: rgba(0,0,0,0.3);
+   
+}
+
+.transactionText{
+    display: flex;
+    width: 100%;
+}
+
+.transactionText p, .amtDiv span{
+
+    padding: 10px 5px 10px 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+
+
+.income{
+    border-right: 3px solid var(--green-color);
+}
+
+.expense{
+    border-right: 3px solid var(--red-color);
+}
